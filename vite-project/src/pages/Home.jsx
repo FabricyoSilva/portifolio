@@ -12,7 +12,7 @@ export const Home = () => {
         {/*Efeito do Background*/}
         <StartBackground/>
         {/* Navbar*/}
-
+        <Navbar/>
         {/* Conteudo da Main*/}
 
         {/* Footer*/}
