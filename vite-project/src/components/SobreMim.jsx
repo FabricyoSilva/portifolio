@@ -39,6 +39,11 @@ export const SobreMim = () => {
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-primary/10">
                                     <User className="h-6 w-6 text-primary" />
+
+                                </div>
+                                <div className="text-left">
+                                    <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                                    <p className="text-muted-foregroud">Crio websites reponsivos e aplicações web com frameworks modernos</p>
                                 </div>
                             </div>
                         </div>
@@ -46,6 +51,10 @@ export const SobreMim = () => {
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-primary/10">
                                     <Briefcase className="h-6 w-6 text-primary" />
+                                </div>
+                                <div className="text-left">
+                                    <h4 className="font-semibold text-lg">Planejamento de projeto</h4>
+                                    <p className="text-muted-foregroud">Crio websites reponsivos e aplicações web com frameworks modernos</p>
                                 </div>
                             </div>
                         </div>
