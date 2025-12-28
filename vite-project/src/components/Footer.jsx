@@ -8,7 +8,7 @@ export const Footer = () => {
               
                     <div className="w-full sm:w-1/2 flex items-start sm:items-center gap-6">
                         <div>
-                            <h4 className="font-semibold mb-2">Entre em contato</h4>
+                            <h4 className="font-semibold mb-2">Conecte-se comigo</h4>
                             <div className="flex items-center space-x-4">
                                 <a href="https://www.linkedin.com/in/fabricyo-silva/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                                     <Linkedin />

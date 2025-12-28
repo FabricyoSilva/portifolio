@@ -13,11 +13,11 @@ export const SobreMim = () => {
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">Focado em Desenvolvimento Web</h3>
                         <p className="text-muted-foreground">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur maxime exercitationem aliquid maiores voluptatem eos sequi! Sapiente harum quae enim et tempore minima, facilis id fuga nemo temporibus explicabo veniam.
+                            Sou estudante de Análise e Desenvolvimento de Sistemas (ADS) pelo IFPI, com início da minha trajetória acadêmica em 2024. Desde então, venho me dedicando ao aprendizado contínuo e à construção de soluções tecnológicas que unem lógica, criatividade e eficiência.
                         </p>
 
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur maxime exercitationem aliquid maiores voluptatem eos sequi! Sapiente harum quae enim et tempore minima, facilis id fuga nemo temporibus explicabo veniam.
+                         Atuo como desenvolvedor Fullstack, atuando tanto no front-end quanto no back-end, buscando sempre desenvolver aplicações completas, funcionais e bem estruturadas. Tenho interesse em boas práticas, evolução constante e em transformar ideias em sistemas que realmente façam a diferença.
                         </p>
 
                     </div>
