@@ -43,7 +43,7 @@ export const SobreMim = () => {
                                 </div>
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg">UI/UX Design</h4>
-                                    <p className="text-muted-foregroud">Crio websites reponsivos e aplicações web com frameworks modernos</p>
+                                    <p className="text-muted-foregroud">Interfaces intuitivas, responsivas e focadas na experiência do usuário.</p>
                                 </div>
                             </div>
                         </div>
@@ -53,8 +53,8 @@ export const SobreMim = () => {
                                     <Briefcase className="h-6 w-6 text-primary" />
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg">Planejamento de projeto</h4>
-                                    <p className="text-muted-foregroud">Crio websites reponsivos e aplicações web com frameworks modernos</p>
+                                    <h4 className="font-semibold text-lg">Domínio de Back-end</h4>
+                                    <p className="text-muted-foregroud">Desenvolvimento de APIs, regras de negócio e integração com banco de dados.</p>
                                 </div>
                             </div>
                         </div>
