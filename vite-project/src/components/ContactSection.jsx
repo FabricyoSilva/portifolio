@@ -1,7 +1,29 @@
-import { Mail, Phone, MapPin,Linkedin, Github } from 'lucide-react';
+import { Mail, Phone, MapPin,Linkedin, Github, Send } from 'lucide-react';
+import {cn} from '@/lib/utils'
+import { useToast } from '../hooks/use-toast';
+import { useState } from 'react';
 
 export const ContactSection = () => {
-    return <section className="py-24 px-4 relative bg-secondary/30">
+    const { toast } = useToast();
+    const [isSubmitting, setIsSubmitting] = useState(false)
+    
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        
+        setIsSubmitting(true);
+
+        setTimeout(() => {
+            toast({
+                title: "Mensagem enviada!",
+                description: "Obrigado por sua mensagem, retornarei em breve"
+            });
+            
+            setIsSubmitting(false);
+            e.target.reset();
+        }, 1500);
+    };
+
+    return <section id="contato" className="py-24 px-4 relative bg-secondary/30">
 
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">Entre em <span className="text-primary"> Contato</span>
         </h2>
@@ -49,6 +71,33 @@ export const ContactSection = () => {
                         </a>
                     </div>
                 </div>
+            </div>
+
+            <div className='bg-card p-8 rounded-lg shadow-xs'>
+                <h3 className='text-2xl font-semibold mb-6'>Envie uma mensagem</h3>
+                
+                <form className='space-y-6' onSubmit={handleSubmit}>
+                    <div>
+                        <label htmlFor='name' className='block text-sm font-medium mb-2'> Seu nome</label>
+                        
+                        <input type="text" id='name' required className='w-full py-3 px-4 rounded-md border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary' placeholder='Seu nome...'/>
+                    </div>
+                    <div>
+                        <label htmlFor='email' className='block text-sm font-medium mb-2'> Seu email</label>
+
+                        <input type="email" id='email' required className='w-full py-3 px-4 rounded-md border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary' placeholder='exemplo@gmail.com'/>
+                    </div>
+                    <div>
+                        <label htmlFor='mensagem' className='block text-sm font-medium mb-2'> Sua mensagem</label>
+
+                        <textarea id='mensagem' required className='w-full py-3 px-4 rounded-md border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary resize-none' placeholder='Olá, gostaria de falar sobre...'/>
+                    </div>
+
+                    <button type='submit' disabled={isSubmitting} className={cn("cosmic-button w-full flex items-center justify-center gap-2", isSubmitting && "opacity-50 cursor-not-allowed")}>
+                        {isSubmitting ? "Enviando..." : "Envie a mensagem"}
+                        <Send size={16}/>
+                    </button>
+                </form>
             </div>
         </div>
     </section>

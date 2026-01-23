@@ -6,6 +6,7 @@ const navItems = [
     { name: "Sobre mim", href: "#sobre" },
     { name: "Habilidades", href: "#skills" },
     { name: "Projetos", href: "#projetos" },
+    { name: "Contato", href: "#contato" },
 ]
 
 export const Navbar = () => {
