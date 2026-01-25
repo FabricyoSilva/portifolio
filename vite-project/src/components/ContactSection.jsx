@@ -28,7 +28,7 @@ export const ContactSection = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">Entre em <span className="text-primary"> Contato</span>
         </h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, molestias. Optio numquam tempore voluptatum eos nobis ea vel at. Expedita.
+            Estou sempre em busca de novos desafios e projetos interessantes. Se você tem uma ideia incrível ou precisa de ajuda com uma solução técnica, envie uma mensagem abaixo e responderei o mais rápido possível!
         </p>
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
