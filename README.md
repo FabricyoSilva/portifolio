@@ -24,5 +24,6 @@ Portfólio profissional com foco em desenvolvimento de software, apresentando pr
 ---
 ## 📱 Mobile
 
+![Mobile](./assets/mobile-portifolio.png)
 
 ---
