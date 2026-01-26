@@ -7,17 +7,23 @@ Portfólio profissional com foco em desenvolvimento de software, apresentando pr
 ## 🌐 Web
 
 ### 📱 Contato
-![Seção de Contato](vite-project/assets/entre-contato.png)
+![Seção de Contato](./assets/entre-contato.png)
 
 ### 💻 Header e Início
-![Header do Projeto](vite-project/assets/header-portfolio.png)
+
+![Header do Projeto](./assets/header-portifolio.png)
 
 ### 🚀 Habilidades
 
-![Minhas Habilidades](vite-project/assets/skills-portfolio.png)
+![Minhas Habilidades](./assets/skills-portifolio.png)
+
+### 👤 Sobre mim
+
+![Sobre mim](./assets/sobre-mim.png)
 
 ---
 ## 📱 Mobile
 
+![Mobile](./assets/mobile-portifolio.png)
 
 ---
