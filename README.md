@@ -7,13 +7,16 @@ Portfólio profissional com foco em desenvolvimento de software, apresentando pr
 ## 🌐 Web
 
 ### 💻 Header e Início
-![Header do Projeto](assets/header-portfolio.png)
+
+(assets/header-portfolio.png)
 
 ### 🚀 Habilidades
-![Minhas Habilidades](assets/skills-portfolio.png)
+
+(assets/skills-portfolio.png)
 
 ### 📱 Contato
-![Seção de Contato](./assets/entre-contato.png)
+
+(./assets/entre-contato.png)
 
 ---
 ## 📱 Mobile
