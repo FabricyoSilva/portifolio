@@ -11,13 +11,13 @@ Portfólio profissional com foco em desenvolvimento de software, apresentando pr
 
 ### 💻 Header e Início
 
-![Header do Projeto](./assets/header-portfolio.png)
+![Header do Projeto](./assets/header-portifolio.png)
 
 ### 🚀 Habilidades
 
-![Minhas Habilidades](./assets/skills-portfolio.png)
+![Minhas Habilidades](./assets/skills-portifolio.png)
 
-### Sobre mim
+### 👤 Sobre mim
 
 ![Sobre mim](./assets/sobre-mim.png)
 
