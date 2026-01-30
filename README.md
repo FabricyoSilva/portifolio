@@ -10,17 +10,16 @@ Portfólio profissional com foco em desenvolvimento de software, apresentando pr
 
 ![Header do Projeto](./assets/header-portifolio.png)
 
-### 📱 Contato
-![Seção de Contato](./assets/entre-contato.png)
+### 👤 Sobre mim
 
+![Sobre mim](./assets/sobre-mim.png)
 
 ### 🚀 Habilidades
 
 ![Minhas Habilidades](./assets/skills-portifolio.png)
 
-### 👤 Sobre mim
-
-![Sobre mim](./assets/sobre-mim.png)
+### 📱 Contato
+![Seção de Contato](./assets/entre-contato.png)
 
 ---
 ## 📱 Mobile
