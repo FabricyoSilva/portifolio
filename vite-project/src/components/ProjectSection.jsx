@@ -3,10 +3,10 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react"
 const project = [
     {
         id:1,
-        titulo:"em breve",
-        descricao:"em breve",
-        imagem:"/projects/em_breve.png",
-        tages:["Linguagem e ferramentas ultilizadas para a construção do projeto"],
+        titulo:"Reserva de Salas",
+        descricao:"Reservas por categorias, gestão de salas e controle de permissões em uma interface intuitiva.",
+        imagem:"/projects/dashbord_admin.png",
+        tages:["Django","TailwindCSS"],
         demoURL: "#",
         githubUrl: "#",
     },
