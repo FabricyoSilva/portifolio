@@ -6,7 +6,7 @@ const project = [
         titulo:"Reserva de Salas",
         descricao:"Reservas por categorias, gestão de salas e controle de permissões em uma interface intuitiva.",
         imagem:"/projects/dashbord_admin.png",
-        tages:["Django","TailwindCSS"],
+        tages:["Python","Django","TailwindCSS"],
         demoURL: "#",
         githubUrl: "#",
     },
