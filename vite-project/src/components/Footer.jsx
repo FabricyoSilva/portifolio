@@ -10,7 +10,7 @@ export const Footer = () => {
                 </div>
 
                 <a href="#hero" className="absolute flex items-center bottom-6 right-6 p-3 rounded-full bg-primary text-white shadow-lg z-50 hover:scale-105 transition-transform gap-1 px-4 py-2">
-                    <span className="text-sm font-medium">Voltar para o topo</span>
+                    <span className="hidden sm:inline text-sm font-medium">Voltar para o topo</span>
                     <ArrowUp size={20} />
                 </a>
             </footer>
